@@ -9,6 +9,10 @@
     height: 100vw;
     margin:0 auto;
     background-color: rgb(78, 75, 95);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 #topo{
     border-style: none;
@@ -45,18 +49,39 @@
 .mainfilhos{
     width: 40%;
     height: 35%;
-    background-color: blueviolet;
     border-radius: 20px;
 }
 #mainf1{
-
+    background-color: blueviolet;
+    border-style: dashed;
+    border-color: rgb(56, 16, 94);
 }
 #mainf2{
-
+    background-color: rgb(56, 16, 94);
+    border-style: dashed;
+    border-color: blueviolet;
 }
 #mainf3{
-
+    background-color: rgb(56, 16, 94);
+    border-style: dashed;
+    border-color: blueviolet;
 }
 #mainf4{
-
+    background-color: blueviolet;
+    border-style: dashed;
+    border-color: rgb(56, 16, 94)
+}
+#footer1{
+    width: 45%;
+    height: 15%;
+    background-color: rgb(107, 220, 252);
+    border-style: dashed;
+    border-color: rgb(56, 16, 94)
+}
+#footer2{
+    width: 45%;
+    height: 15%;
+    background-color: rgb(107, 220, 252);
+    border-style: dashed;
+    border-color: rgb(56, 16, 94)
 }
